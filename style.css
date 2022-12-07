@@ -1,0 +1,27 @@
+/* Position : Static, relative, absolute, fixed, sticky,  */
+body {
+  background: pink;
+}
+
+.parent {
+  background: #000;
+  position: relative;
+  padding: 3rem;
+  margin-top: 3rem;
+}
+
+.parent > div {
+  min-height: 100px;
+}
+.c1 {
+  background: red;
+}
+.c2 {
+  background: green;
+  position: sticky;
+  top: 45px;
+  left: 45px;
+}
+.c3 {
+  background: blue;
+}
